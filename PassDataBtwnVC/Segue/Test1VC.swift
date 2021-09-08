@@ -21,7 +21,4 @@ class Test1VC: UIViewController {
         let destinationVC = segue.destination as! Test2VC
         destinationVC.nickName = nameForLabel
     }
-    
-    
-
 }
