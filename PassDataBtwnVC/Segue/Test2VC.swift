@@ -9,7 +9,6 @@ import UIKit
 
 class Test2VC: UIViewController {
 
-    
     @IBOutlet weak var label: UILabel!
     
     var nickName: String = ""
@@ -19,8 +18,4 @@ class Test2VC: UIViewController {
 
         label.text = nickName
     }
-    
-
-
-
 }
